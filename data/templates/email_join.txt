@@ -1,0 +1,8 @@
+Subject: Account Added
+
+Your account has been added. If you need make any changes or see your stats, please go to #%memberfile%#
+Account name: #%userid%#
+Password: #%userpass%#
+URL: #%siteurl%#
+Banner URL: #%urlbanner%#
+

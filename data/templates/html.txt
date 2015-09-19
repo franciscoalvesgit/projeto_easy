@@ -1,0 +1,8 @@
+<!-- EasyBanner code begin -->
+<CENTER><ILAYER id="ad1" visibility="hidden" height=#%height%#></ILAYER>
+<NOLAYER>
+<IFRAME SRC="#%workfile%#" width=#%width%# height=#%height%# marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling="no"></IFRAME>
+</NOLAYER>
+</CENTER>
+<layer src="#%workfile%#" visibility=hidden id="a1" width=#%width%# onload="moveToAbsolute(ad1.pageX,ad1.pageY); a1.clip.height=#%height%#;visibility='show';"></layer>
+<!-- EasyBanner code end -->

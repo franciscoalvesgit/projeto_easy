@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+<title>Easy Banner</title>
+</head>
+
+<body topmargin="10" leftmargin="2" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#0000FF" alink="#FF0000">
+<div align="center">
+  <center>
+        <table border="0" width="650" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="100%" valign="top" align="center"><font face="Verdana,arial,sans-serif" size="2" color="#000000">
+            <b><font color="#FF0000">Adding an account</font></b><br>
+				New members should point a browser to join.php and fill out all fields.
+            They get html code for adding to their site. Once they did it, the
+            script begins to count their impressions. The script will
+            automatically send an email to both the new member and to admin.
+            Then the admin should go to the admin area and approve or delete the
+            member.
+            <br><br><b><font color="#FF0000">Statistic</font></b><br>
+				All members can see statistic of their accounts. If you don't want to allow your members
+            access to some of the stats, just delete the line from the template.
+            You as admin can see statistic of all members.<br><br>
+
+            <b><font color="#FF0000">Templates</font></b><br>
+				The template feature of Easy Banner makes the script extremely easy
+            to use. These templates are very easy to edit in your normal HTML
+            editor. All of the templates are prepared and ready to use, no
+            changes are necessary. If you will edit these templates, we recommend
+            to save the original templates from your zip file to a safe place so
+            you can restore the original templates in any time.<br>Below is a
+            short description of each template and list of variables which may
+            be used.<br>
+            <font color="#0000FF">Email templates</font><br>
+            <font color="#0000FF">email_admin.txt</font>
+				(this is a template for email admin when new member signed up),
+            <font color="#0000FF">email_join.txt</font>
+				(this is a template for email new member). In these email templates you may use these variables:<br>
+				#%userid%# - username of the new member<br>
+				#%userpass%# - password of the new member<br>
+				#%siteurl%# - URL of site of the new member<br>
+				#%urlbanner%# - URL of banner of the new member<br>
+				#%adminfile%# - URL of your admin.php script<br>
+				#%memberfile%# - URL of your member.php script<br>
+				#%memberemail%# - email of the member (available only in admin templates)<br>
+				Please notice that the first line of email templates must begin with the
+            word &quot;Subject: &quot; and below the line must be one blank line.<br>
+
+            <font color="#0000FF">join.html</font><br>
+            This is the page webmasters will see when adding new account.<br>
+				You may use these variables:<br>
+				#%bwidth%# and #%bheight%# - measures of banners in your banner exchange<br>
+
+            <font color="#0000FF">join_success.html</font><br>
+            This is the page webmasters will see after adding their account.<br>
+				#%memberfile%# - URL of member.php script<br>
+				#%userid%# - username of the new member<br>
+				#%userpass%# - password of the new member<br>
+				#%email%# - email of the new member<br>
+				#%siteurl%# - URL of site of the new member<br>
+            #%banner%# - complete html needed to display a banner of the new member<br>
+				#%html%# - HTML for the new member to insert to web pages<br>
+
+            <font color="#0000FF">member_edit.html</font><br>
+            This is the page webmasters will see when editing their account.<br>
+				#%userid%# - username of the member<br>
+				#%userpass%# - password of the member<br>
+				#%email%# - email of the member<br>
+				#%siteurl%# - site URL of the member<br>
+				#%urlbanner%# - URL of banner of the member<br>
+
+            <font color="#0000FF">member_edited.html</font><br>
+            This is the page webmasters will see after editing their account.<br>
+				#%userid%# - username of the member<br>
+				#%userpass%# - password of the member<br>
+				#%email%# - email of the member<br>
+				#%siteurl%# - site URL of the member<br>
+            #%banner%# - complete html needed to display a banner of the member<br>
+
+            <font color="#0000FF">member_html.html</font><br>
+            Here can members get HTML code for their site.<br>
+				#%html%# - HTML for the member to insert to web pages<br>
+
+            <font color="#0000FF">member_stats.html</font><br>
+            The account statistic page.<br>
+				#%userid%# - username of the member<br>
+				#%meshows%# - total number of banners displayed on member's pages<br>
+				#%earned%# - total number of earned credits<br>
+				#%weshow%# - shows how many times has been member's banner displayed on pages of other members<br>
+				#%notused%# - not used credits<br>
+
+            <font color="#0000FF">error.html</font><br>
+            This is the page members and visitors will see if any error has occured.<br>
+				#%errortext%# - description of the error<br>
+				#%adminemail%# - your (admin) email address<br>
+				
+				<font color="#0000FF">html.txt</font><br>
+				This is the HTML members get to show it to their pages. Editing this file is not recommended.<br>
+				#%workfile%# - URL of your work.php<br>
+				#%width%# and #%bheight%# - width and height of banners in the banner exchange<br><br>
+
+            <b><font color="#FF0000">Tip</font></b><br>
+				If all works fine, you may remove script "settings.php" from your server to prevent hackers 
+				totally damage your exchynge system. You may again upload it if you will need to make any changes.<br><br>
+
+				<b><font color="#FF0000">Upgrade</font></b><br>
+				If you are interested to upgrade to Easy Banner Pro and get lots of new advanced features, please <a href="http://www.phpwebscripts.com/easybanner/buynow.html">click here</a>.
+				Script which update your current database to the Pro version is available for free.
+            </font><br><br><br><br><br><br><br><br><br><br>
+            </td>
+          </tr>
+        </table>
+  </center>
+</div>
+
+</body>
+
+</html>
